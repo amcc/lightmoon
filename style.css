@@ -4,6 +4,7 @@ body {
   padding: 0;
   font-family: "Roboto Mono", sans-serif;
   font-weight: 300;
+  color: gray;
 }
 canvas {
   display: block;
