@@ -50,9 +50,9 @@ function draw() {
   noStroke();
   // stroke(0,255,0);
   translate(0, 0, zTranslation);
-  rotateY(millis() / rotationSpeed);
+  rotateY(millis() / (rotationSpeed/2));
   texture(moon);
-  sphere(moonSize / 4, 24, 24);
+  sphere(moonSize / 4.5, 24, 24);
   pop();
 }
 
