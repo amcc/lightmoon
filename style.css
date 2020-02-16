@@ -6,6 +6,7 @@ body {
   font-weight: 300;
   color: gray;
   overscroll-behavior: none;
+  position: fixed;
 }
 canvas {
   display: block;
