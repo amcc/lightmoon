@@ -9,6 +9,7 @@ body {
 }
 canvas {
   display: block;
+  overscroll-behavior: none;
 }
 #info {
   position: fixed;
