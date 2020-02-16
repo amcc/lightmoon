@@ -52,7 +52,7 @@ function draw() {
   translate(0, 0, zTranslation);
   rotateY(millis() / rotationSpeed);
   texture(moon);
-  sphere(moonSize / 2.9, 24, 24);
+  sphere(moonSize / 4, 24, 24);
   pop();
 }
 
